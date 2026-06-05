@@ -1,0 +1,58 @@
+2026-06-04 21:53:26 | BEGIN | MKDIR | /documentos
+2026-06-04 21:53:26 | COMMIT | MKDIR | /documentos
+2026-06-04 21:53:26 | BEGIN | CREATE | /documentos/aula.txt
+2026-06-04 21:53:26 | COMMIT | CREATE | /documentos/aula.txt
+2026-06-04 21:53:26 | BEGIN | COPY | /documentos/aula.txt -> /documentos/copia.txt
+2026-06-04 21:53:26 | COMMIT | COPY | /documentos/aula.txt -> /documentos/copia.txt
+2026-06-04 21:53:26 | BEGIN | RENAME | /documentos/copia.txt -> resumo.txt
+2026-06-04 21:53:26 | COMMIT | RENAME | /documentos/copia.txt -> resumo.txt
+2026-06-04 21:53:26 | BEGIN | RMDIR | /documentos
+2026-06-04 21:53:26 | ROLLBACK | RMDIR | /documentos
+2026-06-04 21:53:26 | BEGIN | DELETE | /documentos/aula.txt
+2026-06-04 21:53:26 | COMMIT | DELETE | /documentos/aula.txt
+2026-06-04 21:53:26 | BEGIN | DELETE | /documentos/resumo.txt
+2026-06-04 21:53:26 | COMMIT | DELETE | /documentos/resumo.txt
+2026-06-04 21:53:26 | BEGIN | RMDIR | /documentos
+2026-06-04 21:53:26 | COMMIT | RMDIR | /documentos
+2026-06-04 21:59:15 | BEGIN | MKDIR | /documentos
+2026-06-04 21:59:16 | COMMIT | MKDIR | /documentos
+2026-06-04 21:59:16 | BEGIN | MKDIR | /documentos/aulas
+2026-06-04 21:59:16 | COMMIT | MKDIR | /documentos/aulas
+2026-06-04 21:59:16 | BEGIN | CREATE | /documentos/aulas/aula.txt
+2026-06-04 21:59:16 | COMMIT | CREATE | /documentos/aulas/aula.txt
+2026-06-04 21:59:16 | BEGIN | COPY | /documentos/aulas/aula.txt -> /documentos/aulas/copia.txt
+2026-06-04 21:59:16 | COMMIT | COPY | /documentos/aulas/aula.txt -> /documentos/aulas/copia.txt
+2026-06-04 21:59:16 | BEGIN | RENAME | /documentos/aulas/copia.txt -> resumo.txt
+2026-06-04 21:59:16 | COMMIT | RENAME | /documentos/aulas/copia.txt -> resumo.txt
+2026-06-04 21:59:16 | BEGIN | RENAME | /documentos/aulas -> materiais
+2026-06-04 21:59:16 | COMMIT | RENAME | /documentos/aulas -> materiais
+2026-06-04 21:59:16 | BEGIN | RMDIR | /documentos
+2026-06-04 21:59:16 | ROLLBACK | RMDIR | /documentos
+2026-06-04 21:59:16 | BEGIN | DELETE | /documentos/materiais/aula.txt
+2026-06-04 21:59:16 | COMMIT | DELETE | /documentos/materiais/aula.txt
+2026-06-04 21:59:16 | BEGIN | DELETE | /documentos/materiais/resumo.txt
+2026-06-04 21:59:16 | COMMIT | DELETE | /documentos/materiais/resumo.txt
+2026-06-04 21:59:16 | BEGIN | RMDIR | /documentos/materiais
+2026-06-04 21:59:16 | COMMIT | RMDIR | /documentos/materiais
+2026-06-04 21:59:16 | BEGIN | RMDIR | /documentos
+2026-06-04 21:59:16 | COMMIT | RMDIR | /documentos
+2026-06-04 21:59:27 | BEGIN | COPY | /naoexiste.txt -> /x.txt
+2026-06-04 21:59:27 | ROLLBACK | COPY | /naoexiste.txt -> /x.txt
+2026-06-04 21:59:27 | BEGIN | MKDIR | documentos
+2026-06-04 21:59:27 | ROLLBACK | MKDIR | documentos
+2026-06-04 21:59:27 | BEGIN | MKDIR | /teste
+2026-06-04 21:59:27 | COMMIT | MKDIR | /teste
+2026-06-04 21:59:27 | BEGIN | MKDIR | /teste
+2026-06-04 21:59:27 | ROLLBACK | MKDIR | /teste
+2026-06-04 21:59:27 | BEGIN | RMDIR | /
+2026-06-04 21:59:27 | ROLLBACK | RMDIR | /
+2026-06-04 21:59:33 | BEGIN | RMDIR | /teste
+2026-06-04 21:59:33 | COMMIT | RMDIR | /teste
+2026-06-04 21:59:53 | BEGIN | MKDIR | /persistencia
+2026-06-04 21:59:53 | COMMIT | MKDIR | /persistencia
+2026-06-04 21:59:53 | BEGIN | CREATE | /persistencia/prova.txt
+2026-06-04 21:59:53 | COMMIT | CREATE | /persistencia/prova.txt
+2026-06-04 21:59:53 | BEGIN | DELETE | /persistencia/prova.txt
+2026-06-04 21:59:53 | COMMIT | DELETE | /persistencia/prova.txt
+2026-06-04 21:59:53 | BEGIN | RMDIR | /persistencia
+2026-06-04 21:59:53 | COMMIT | RMDIR | /persistencia
