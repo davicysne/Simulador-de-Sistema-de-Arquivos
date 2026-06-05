@@ -192,7 +192,3 @@ Ao executar o projeto, espera-se que o usuário consiga criar uma estrutura de d
 As operações bem-sucedidas devem ser salvas automaticamente no arquivo `filesystem.dat`. Assim, ao fechar e abrir o programa novamente, a estrutura criada anteriormente será carregada.
 
 Também é esperado que o arquivo `journal.log` registre todas as operações modificadoras, indicando quando cada uma começou e se terminou com `COMMIT` ou `ROLLBACK`.
-
-## GitHub
-
-[Link do projeto no GitHub](https://github.com/davicysne/Simulador-de-Sistema-de-Arquivos)
